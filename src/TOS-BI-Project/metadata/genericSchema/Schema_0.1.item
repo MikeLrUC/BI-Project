@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_MrslgKepEeyf3bexbUD1fg" name="repository.metadataGenericSchema" dataPackage="_MrslgaepEeyf3bexbUD1fg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_MrslgaepEeyf3bexbUD1fg" name="repository.metadataGenericSchema" dataManager="_MrslgKepEeyf3bexbUD1fg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MrslgqepEeyf3bexbUD1fg" id="_uPZbIKeoEeyf3bexbUD1fg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Mrslg6epEeyf3bexbUD1fg" name="newColumn" label="newColumn" sourceType="" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

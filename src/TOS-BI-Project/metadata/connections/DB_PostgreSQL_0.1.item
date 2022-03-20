@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_pHrv4KenEeyf3bexbUD1fg" name="DB_PostgreSQL" id="_LvLsMKekEeyf3bexbUD1fg" label="DB_PostgreSQL" dataPackage="_zPQ94KfpEeyf3bexbUD1fg" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/wine?" dbVersionString="V9_X" Port="5432" Username="admin" Password="enc:system.encryption.key.v1:MtuWyrrWkvDnWDb5Yqaolra9Obxr5K/mxW9XGIZkM/vM" ServerName="localhost" DatasourceName="" FileFieldName="" SID="wine" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_pHrv4aenEeyf3bexbUD1fg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_pIAgAKenEeyf3bexbUD1fg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_pIIb0KenEeyf3bexbUD1fg" tag="Status" value=""/>
+    <taggedValue xmi:id="_pIIb0aenEeyf3bexbUD1fg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_pIIb0qenEeyf3bexbUD1fg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_pIIb06enEeyf3bexbUD1fg" tag="Description" value=""/>
+    <taggedValue xmi:id="_pIIb1KenEeyf3bexbUD1fg" tag="Author" value=""/>
+    <taggedValue xmi:id="_pIIb1aenEeyf3bexbUD1fg" tag="otherParameter"/>
+    <taggedValue xmi:id="_pIlu0KenEeyf3bexbUD1fg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_pIlu0aenEeyf3bexbUD1fg" tag="DB ProductVersion" value="14.2"/>
+    <taggedValue xmi:id="_pIlu0qenEeyf3bexbUD1fg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_pHrv4qenEeyf3bexbUD1fg" key="CONN_PARA_KEY_USERNAME" value="admin"/>
+    <parameters xmi:id="_FqlIoKeoEeyf3bexbUD1fg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_zPQ94KfpEeyf3bexbUD1fg" name="wine" dataManager="_pHrv4KenEeyf3bexbUD1fg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_zPQ94afpEeyf3bexbUD1fg" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_zPQ94qfpEeyf3bexbUD1fg" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_zPQ946fpEeyf3bexbUD1fg" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

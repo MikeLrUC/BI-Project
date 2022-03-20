@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_yLUMMaeqEeyf3bexbUD1fg" name="repository.metadataGenericSchema" dataPackage="_yLUMMqeqEeyf3bexbUD1fg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_yLUMMqeqEeyf3bexbUD1fg" name="repository.metadataGenericSchema" dataManager="_yLUMMaeqEeyf3bexbUD1fg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yLUMM6eqEeyf3bexbUD1fg" id="_9Qb78KepEeyf3bexbUD1fg" label="WineDB">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMNKeqEeyf3bexbUD1fg" name="id" label="id" length="-1" sourceType="INT8" talendType="id_Long" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMNaeqEeyf3bexbUD1fg" name="rating" label="rating" length="-1" sourceType="FLOAT8" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMNqeqEeyf3bexbUD1fg" name="reviewer_id" label="reviewer_id" length="-1" sourceType="INT8" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMN6eqEeyf3bexbUD1fg" name="category_id" label="category_id" length="-1" sourceType="INT8" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMOKeqEeyf3bexbUD1fg" name="winery_id" label="winery_id" length="-1" sourceType="INT8" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMOaeqEeyf3bexbUD1fg" name="region_id" label="region_id" length="-1" sourceType="INT8" talendType="id_Long"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yLUMOqeqEeyf3bexbUD1fg" name="wine_id" label="wine_id" length="-1" sourceType="INT8" talendType="id_Long"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

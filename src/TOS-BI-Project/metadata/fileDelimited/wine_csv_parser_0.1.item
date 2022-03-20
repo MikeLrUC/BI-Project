@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lQM6QKeiEey4oe9rTB7gOQ" name="wine_csv_parser" id="_lQDwUKeiEey4oe9rTB7gOQ" dataPackage="_lQM6QaeiEey4oe9rTB7gOQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/pedro/OneDrive/Documentos/TOS/BI_PROJECT/datasets/wine.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lQM6QaeiEey4oe9rTB7gOQ" name="default" dataManager="_lQM6QKeiEey4oe9rTB7gOQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lQM6QqeiEey4oe9rTB7gOQ" id="_fEJdIKehEey4oe9rTB7gOQ" label="Wine">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6Q6eiEey4oe9rTB7gOQ" label="wine" length="105" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6RKeiEey4oe9rTB7gOQ" label="winery" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6RaeiEey4oe9rTB7gOQ" label="category" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6RqeiEey4oe9rTB7gOQ" label="designation" length="59" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6R6eiEey4oe9rTB7gOQ" label="varietal" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6SKeiEey4oe9rTB7gOQ" label="appellation" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6SaeiEey4oe9rTB7gOQ" label="alcohol" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6SqeiEey4oe9rTB7gOQ" label="price" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6S6eiEey4oe9rTB7gOQ" label="rating" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6TKeiEey4oe9rTB7gOQ" label="reviewer" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQM6TaeiEey4oe9rTB7gOQ" label="review" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
