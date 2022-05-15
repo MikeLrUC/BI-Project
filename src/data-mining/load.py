@@ -7,8 +7,8 @@ from coords import Database, DATAPATH
 def binning(df, column, n=30):
     counts = df[column].value_counts(dropna=False)
     for i, value in enumerate(df[[column]].values):
-        if not (counts[value[0]] >= 30) or value[0] is np.nan:
-            df.at[i, column] = "other" 
+        if not (counts[value[0]] >= n) or value[0] is np.nan:
+            df.at[i, column] = np.nan 
 
 def get_age(entry):
     current_year = datetime.date.today().year
@@ -57,12 +57,12 @@ def main():
 
     # Apply Data Transformations mentioned in the notebook
     binning_cols = ["designation", "varietal", "winery", "reviewer"]
+    bins_min = [30, 30, 100, 0]
     ohe_cols = ["category"] + binning_cols
 
     # Get coordinates from region
     coords_df = pd.read_csv(DATAPATH + "coords.csv")
     df = pd.merge(df, coords_df, on="region")
-    df[["lat", "lng"]] = df[["lat", "lng"]].fillna(-200)
 
     # Get wine age
     df["age"] = df["wine_name"].apply(get_age)
@@ -70,15 +70,20 @@ def main():
     # Bound alcohol values
     df["alcohol"] = df["alcohol"].apply(bound)
 
-    # Binning
-    for bc in binning_cols:
-        binning(df, bc)
+    # Bound price values
+    df["price"] = df["price"].apply(lambda entry: max(min(entry, 500), 0))
 
-    # One-Hot Encoding
-    df = pd.get_dummies(df, columns=ohe_cols)
+    # Binning
+    for bc, n in zip(binning_cols, bins_min):
+        binning(df, bc, n=n)
+
+    df = df.dropna()
 
     # Dropping vars
     df = df.drop(["id", "region", "wine_name"], axis=1)
+
+    # One-Hot Encoding
+    df = pd.get_dummies(df, columns=ohe_cols)
     return df
 
 if __name__ == "__main__":
